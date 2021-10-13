@@ -1,0 +1,38 @@
+*
+{
+    text-transform: capitalize;
+}
+.Brand_Logo
+{
+    width:50px !important;
+    height:50px !important;
+}
+.Brand_Logo:hover
+{
+    opacity: 0.8 !important;
+}
+ul>li>a
+{
+    color: #f0f8ff !important;
+}
+ul>li>a:hover
+{
+    transition: all 1s ease;
+    color: #d64d55 !important;
+}
+.login_color>a
+{
+    border-radius: 100px;
+    background-color: #d64d55;
+    color: #ffffff;
+    transition: all 1.5s ease;
+}
+.login_color a:hover
+{
+    color:#f1f106 !important;
+}
+
+.module_bg_color
+{
+   background-color: #11f856;
+}

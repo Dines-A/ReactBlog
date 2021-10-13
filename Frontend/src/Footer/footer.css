@@ -1,0 +1,16 @@
+
+.Footer_ul_li_border
+{
+    border-left: 1px groove white;
+    border-right: 1px groove white;
+}
+.socialmedia_icons a 
+{
+    height: 40px;
+    width:40px;
+}
+.socialmedia_icons a :hover
+{
+     transition: all .5s ease-in-out;
+     z-index: 5;
+}

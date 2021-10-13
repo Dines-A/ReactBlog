@@ -1,0 +1,49 @@
+.container {
+    padding: 10px;
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header > h1 {
+    flex-basis: 70%;
+}
+
+.content-header > div > button {
+    flex-basis: 5%;
+}
+
+.blogs {
+    display: flex;
+    margin: 5vh 5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blog-container {
+    border: 2px solid black;
+    margin: 10px 5px;
+    height: 200px;
+    flex-basis: 30%;
+    padding: 0px 10px;
+}
+
+.btn {
+    background: none;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: large;
+}
+
+@media (max-width: 500px) {
+    .blog-container {
+        flex-basis: 70%;
+    }
+}
+.hovercol:hover{
+    background-color: #fff;
+}

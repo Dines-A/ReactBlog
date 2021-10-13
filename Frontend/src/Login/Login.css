@@ -1,0 +1,25 @@
+.Login_Form
+{
+    color: rgb(255, 255, 255);
+    background-color: #212122;
+    padding: 50px;
+}
+input
+{
+   /* background-color: transparent !important; */
+   outline: none !important;
+   border-top: none !important;
+   border-left: none !important;
+   border-right: none !important;
+   border-bottom: 2px solid white !important;
+   color: rgb(8, 8, 8) !important;
+   text-align:start;
+   outline: none;
+   -webkit-box-shadow: none !important;
+   -moz-box-shadow: none !important;
+   box-shadow: none !important;
+}
+.form-control
+{
+    border-radius: 0px !important;
+}
